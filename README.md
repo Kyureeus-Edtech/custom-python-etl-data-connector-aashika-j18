@@ -4,23 +4,21 @@ This project provides a custom ETL connector to interact with the **AlienVault O
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/otx_ipv4_general.git
-cd otx_ipv4_general
+git clone <your-repo-url>
+cd repo-name
 ```
 
 
 ### 2. Install Dependencies
 ```bash
-pip install requests
+pip install -r requirements.txt
 ```
 
 ### 3. Create and Activate Virtual Environment
-
-CHECKKK
 ```bash
 python -m venv venv
 # On Windows
@@ -54,15 +52,7 @@ If no IP is provided, the script defaults to 8.8.8.8.
 ## API Endpoint Details
 **Base URL:** `https://otx.alienvault.com/api/v1/indicators/IPv4/<IPv4_Address>/general`
 
-Method:
-GET
-
-Headers:
-json
-{
-  "X-OTX-API-KEY": "<Your_API_Key>",
-  "Content-Type": "application/json"
-}
+Method: `GET`
 
 ---
 
@@ -71,13 +61,20 @@ json
 
 ### Logs
 
+<img width="1423" height="284" alt="Screenshot 2025-08-13 193023" src="https://github.com/user-attachments/assets/a7c397c4-7ad8-43e3-90b7-27f37655f52b" />
+
+
 ### MongoDB
+<img width="739" height="538" alt="Screenshot 2025-08-13 194540" src="https://github.com/user-attachments/assets/d0e902ce-4033-423b-b40c-41c2533373ca" />
+<img width="516" height="544" alt="Screenshot 2025-08-13 194547" src="https://github.com/user-attachments/assets/a968c61d-5e22-456a-b93e-9e578a94970f" />
+<img width="618" height="246" alt="Screenshot 2025-08-13 194552" src="https://github.com/user-attachments/assets/40383e65-35fa-4d70-a558-5e2f3f9fb12b" />
+
+
 
 
 ## Author
-**Name:** Niya  
-**Role:** Developer  
-**Contact:** [youremail@example.com]  
+**Name:** Aashika Jetti  
+**Roll No.:** 3122225001050 
 
 ---
 
